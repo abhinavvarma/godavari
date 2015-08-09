@@ -1,0 +1,43 @@
+{
+    "preset": "jquery",
+    "validateIndentation": 4,
+
+    "requireSemicolons": true,
+
+    "requireSpacesInFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInNamedFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "disallowSpacesInFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInNamedFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+
+    "requireSpacesInsideParentheses": null,
+    "disallowSpacesInsideParentheses": true,
+
+    "requireSpacesInsideBrackets": null,
+    "disallowSpacesInsideBrackets": true,
+
+    "requirePaddingNewLinesBeforeLineComments": null,
+
+    "requireDotNotation": null,
+
+    "maximumLineLength": {
+        "value": 120,
+        "tabSize": 4,
+        "allExcept": ["regex", "comments", "urlComments", "functionSignature", "require"]
+    },
+
+    "requireCapitalizedComments": null
+}
